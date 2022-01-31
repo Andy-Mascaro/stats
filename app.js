@@ -41,7 +41,7 @@ form.addEventListener('submit', (e) => {
         points: formData.get('points'),
 
     };
-    console.log(stat);
+    
     stats.push(stat);
     renderStats();
     form.reset();
